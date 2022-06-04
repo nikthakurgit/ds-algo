@@ -10,7 +10,7 @@ public class UseCache {
 
         int choice =1;
         while(choice!=0){
-            System.out.println("Press 1 for Put\nPress 2. for Get\nPress 3. to Delete\n Press 0 to Exit.");
+            System.out.println("Press 1 for Put\nPress 2. for Get\nPress 3. to Delete\nPress 0 to Exit.");
             choice= Integer.parseInt(br.readLine());
             String key;
             int value;
